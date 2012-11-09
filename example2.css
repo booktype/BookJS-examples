@@ -57,22 +57,20 @@ body {
 }
 
 
-.contents {
+.contentsContainer {
     height: 6.67in;
     width: 4.03in;
     position: absolute;
     bottom: .8in;
-    /*left: .8 in;*/
-   /*border: solid 1px #000;*/
 }
 
 
-.page:nth-child(odd) .contents {
-    left: .9 in;
+.page:nth-child(odd) .contentsContainer {
+    left: .9in;
 }
 
-.page:nth-child(even) .contents {
-    left: .8 in;
+.page:nth-child(even) .contentsContainer {
+    left: .8in;
 }
 
 
